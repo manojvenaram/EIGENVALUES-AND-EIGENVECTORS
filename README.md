@@ -14,7 +14,8 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 ### Step 4: 
 End the program.
 ## Program:
-```import numpy as np
+```
+import numpy as np
 a=np.array([[2, 2], [1, 3]]) 
 values,vectors=np.linalg.eig(a) 
 print("Eigen values are",values,"and Eigen Vectors are",vectors) 
